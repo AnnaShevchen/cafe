@@ -1,0 +1,116 @@
+/* Загальні стилі для сайту */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffecf4;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffd1ea;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #5a3d31;
+}
+
+nav {
+    background-color: #8d8588;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+/* Стилі для фотографій інтер'єру */
+.photos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 32%; /* Зробити ширину кожної фотографії 32% */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Стилі для фотографій напоїв і десертів */
+.menu-items {
+    display: flex;
+    justify-content: space-between; /* Для вирівнювання фото */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    width: 18%; /* Для рівномірного розподілу на один рядок */
+}
+
+.menu-item img {
+    width: 100%; /* Фотографії займають 100% доступної ширини */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Стилі для меню */
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h2 {
+    font-size: 1.8em;
+    color: #5a3d31;
+}
+
+.menu-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-category ul li {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.menu-category ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
